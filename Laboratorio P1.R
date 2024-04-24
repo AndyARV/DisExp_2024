@@ -41,8 +41,7 @@ gastos <- c(celular, transporte, comestibles, gimnasio, alquiler, otros)
 
 barplot(gastos)
 
-sort (y = "celular, transporte, comestibles, gimnasio, alquiler, otros")
-     (x = "gastos")
+gastos_ordenados <- sort(gastos,decreasing = TRUE)
 
-sort(gastos)
+barplot(gastos_ordenados)
 
