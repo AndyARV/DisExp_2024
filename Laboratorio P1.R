@@ -1,5 +1,6 @@
 # Laboratorio 1
 # Andy Abril Ramos Villa
+# 2026333
 # 15/04/24
 
 # Parte 1 R y Rstudio
@@ -40,8 +41,8 @@ gastos <- c(celular, transporte, comestibles, gimnasio, alquiler, otros)
 
 barplot(gastos)
 
-sort(ylab = "celular, transporte, gimnasio, comestibles, alquiler, otros")
-     xlab = "gastos"
+sort(y = "celular, transporte, gimnasio, comestibles, alquiler, otros")
+     x = "gastos"
 
 sort(barplot)(gastos)
 
